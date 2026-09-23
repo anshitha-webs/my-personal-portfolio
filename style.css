@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf7ff;
+    color: #33263d;
+}
+nav {
+    background-color: #5b2a86;
+    padding: 20px;
+    text-align: center;
+}
+nav h2 {
+    color: white;
+}
+.quick-buttons a {
+    display: inline-block;
+    background-color: #9b5de5;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.quick-buttons a:hover {
+    background-color: #d8b4fe;
+    color: #4c1d75;
+}
+#home {
+    text-align: center;
+    background-color: #e9d5ff;
+    padding: 80px 20px;
+}
+#home h1 {
+    display: inline-block;
+    background-color: #7e57a6;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 15px;
+}
+#home h2 {
+    color: #6b21a8;
+}
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+section > h2 {
+    display: inline-block;
+    background-color: #e4c7f7;
+    color: #5b2a86;
+    padding: 10px 25px;
+    border-radius: 12px;
+    border: 2px solid #9b5de5;
+}
+ 
+
+.main-button,
+.section-button,
+button {
+    display: inline-block;
+
+    background: #a875d1;
+    color: white;
+
+    padding: 20px 45px;
+    margin: 15px;
+
+    border: 3px solid #7b4ba3;
+
+    /* Strong curved shape */
+    border-radius: 60px 25px 60px 25px;
+
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 8px 0 #7b4ba3,
+                0 12px 20px rgba(123, 75, 163, 0.25);
+
+    transition: all 0.3s ease;
+}
+
+
+/* HOVER */
+
+.main-button:hover,
+.section-button:hover,
+button:hover {
+
+    background: #8e5cc7;
+
+    border-radius: 25px 60px 25px 60px;
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 0 #63398b,
+                0 18px 25px rgba(123, 75, 163, 0.35);
+}
+
+a {
+    color: #6b21a8;
+}
+footer {
+    background-color: #4c1d75;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 600px) 
+{
+    nav a {
+        display: block;
+    }
+
+    #home h1 
+  {
+        font-size: 28px;
+    }
+}
+section p {
+    color: #33263d;
+    background-color: #f3e8ff;
+    padding: 12px 18px;
+    margin: 12px auto;
+    max-width: 700px;
+    line-height: 1.7;
+    font-size: 17px;
+    border-left: 4px solid #9b5de5;
+    border-radius: 8px;
+    height: auto;
+    overflow: visible;
+}
